@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+.toolBar{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(247, 154, 131);
+    border-bottom: 1px solid #fff;
+    position: relative;
+    position: fixed;
+    z-index: 1000;
+}
+.toolBarLogo{
+    margin-top: 17px;
+    margin-left: 37px;
+    height: 76px;
+    width: 87px;
+    position: absolute;
+}
+.toolBarLogo:hover{
+    cursor: pointer;
+}
+.toolBarSelection{
+    height: 30px;
+    width: 358px;
+    margin-top: 45px;
+    margin-left: 900px;
+    align-items: center;
+    position: absolute;
+    display: inline-flex;
+    color: #fff;
+    font: bolder 20px "Nobel", Helvetica, Arial, sans-serif;
+}
+.selection{
+    margin-left: 25px;
+}
+.selection:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #fff;
+}
+.socialLinks{
+    height: 27px;
+    width: 214px;
+    margin-top: 45px;
+    display: inline-flex;
+    position: absolute;
+}
+.linksLogo{
+    margin-left: 5px;
+}
+.linksLogo:hover{
+    cursor: pointer;
+}
+.section{
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* section One */
+
+.sectionMain{
+    height: 720px;
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+
+    
+}
+.sectionMain img{
+    width: 100%;
+    height: 720px;
+    position: absolute;
+}
+.sectionOneBanner{
+    width: 406px;
+    height: 222px;
+    margin-left: 134px;
+    margin-top: 255px;
+    position: absolute;
+}
+.sectionOneBanner span{
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 67px;
+}
+.buttonOne{
+    width: 152px;
+    height: 36px;
+    display: inline-flex;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.buttonOne:hover{
+    cursor: pointer;
+}
+.sectionTwoBanner{
+    height: 198px;
+    width: 660px;
+    margin-left: 443px;
+    margin-top: 290px;
+    background-color: rgba(10, 91, 43, 0.8);
+    justify-items: center;
+    align-content: center;
+    position: absolute;
+    border-radius: 100px;
+}
+.bannerHead{
+    display: inline;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 35px;
+}
+.bannerP{
+    font-family: 'Baloo 2', sans-serif;
+    color: #fff;
+}
+.bannerButton{
+    width: 195px;
+    height: 36px;
+    display: inline-flex;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Baloo 2', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+.footer{
+    height: 120px;
+    width: 100%;
+    justify-items: center;
+    background-color: #333;
+    font-family: 'Baloo 2', sans-serif;
+    color: #fff;
+    padding-top: 10px;
+    font-size: 13px;
+}
+.footerLinks{
+    margin-left: 25px;
+}
+.footerLinks:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
